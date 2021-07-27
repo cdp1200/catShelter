@@ -10,7 +10,7 @@ module.exports = (req, res) => {
     if(pathname === '/' && req.method === "GET") {
         // Implement homepage logic to show home html
         let filepath = path.normalize(
-            path.join(__dirname, "./views/home/index.html")
+            path.join(__dirname, "../views/home/index.html")
         );
 
         fs.readFile(filepath, (err, data) => {
