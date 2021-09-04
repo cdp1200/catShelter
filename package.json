@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/cdp1200/catShelter#readme",
   "dependencies": {
+    "formidable": "^1.2.2",
     "nodemon": "^2.0.12"
   }
 }

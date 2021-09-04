@@ -9,7 +9,7 @@ function getContentType(url) {
     } else if (url.endsWith('js')) {
         return 'js';
     } else if (url.endsWith('img')) {
-        return 'img';
+        return 'text/img';
     } else if (url.endsWith('html')) {
         return 'html';
     } else if (url.endsWith('png')) {
